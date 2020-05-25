@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa Criativa</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+
+        <section id="intro">
+
+            <header>
+                <img src="image/logomarca.png" alt="Imagem da logomarca">
+            </header>
+
+            <main>
+                <p>Neste momento, ficar em casa é o que podemos fazer para combater essa pandemia! 
+        
+                </p>
+            
+                <p>
+                    Sabemos que não é fácil. Por isso, criamos esse site para compartilhamento de sugestões de 
+                    <strong>leituras sobre coreografias, desafios de ritmo e aulas de dança</strong>.  Ideias de filmes, 
+                    livros e vídeos relacionados ao tema também são bem-vindos! 
+                </p>
+            
+                <p>
+                    Comece clicando em ver sugestão para ver o conteúdo cadastrado e contribua adicionando sua sugestão 
+                </p>
+            </main>
+
+            <section id="buttons">
+                <button> + Adicionar ideia </button>
+                <button class= "fat">Ver ideias</button>
+            </section>       
+
+            <footer>Com ❤ <a href="https://zmmarina.github.io/">Zandra Monteiro</a>
+            </footer>
+
+
+        </section>
+
+        <section id="last-ideas">
+            <div class="idea">
+                <img 
+                    src="https://image.flaticon.com/icons/svg/708/708888.svg" 
+                    alt="Imagem de sapatilhas de ballet">
+                
+                <div class="content">
+                    <h3>Ballet Clássico</h3>
+                    <p>Leitura</p>
+                    <div class="description">
+                        Um excelente livro para aperfeiçoar a técnica do ballet clássico é “Ballet Clássico - 
+                        Fundamentos e Pontos”, da autora Maria Costa. Em suas 346 páginas, ela aborda...
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+
+
+            </div>
+
+            <div class="idea">
+                <img 
+                    src="https://image.flaticon.com/icons/png/512/599/599544.png" 
+                    alt="Imagem de dançarina de flamenco">
+                
+                <div class="content">
+                    <h3>Flamenco</h3>
+                    <p>Vídeo</p>
+                    <div class="description">
+                        O canal “Flamenco vive” é uma ótima opção para quem quer maratonar 
+                        essa incrível dança no fim de semana. Os vídeos são gravados por profissionais e...
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+
+
+            </div>
+
+            <div class="idea">
+                <img 
+                    src="https://image.flaticon.com/icons/png/512/860/860883.png" 
+                    alt="Imagem de casal dançando">
+                
+                <div class="content">
+                    <h3>Dança de Salão</h3>
+                    <p>Filme</p>
+                    <div class="description">
+                        Um bom filme para se assistir com toda família é “Sob a luz da fama”. 
+                        Os atores são bailarinos e a dança bem executada. Na trama, a personagem...
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+    </div>
+
+    <div id="modal">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                     <label for="category">Categoria</label>
+                     <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image">
+                </div>
+                
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description"cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+
+                <button>Salvar</button>
+        
+            </form>
+
+        </div>
+
+        
+    </div>
+       
+    <script src="scripts.js"></script>
+
+</body>
+</html>
