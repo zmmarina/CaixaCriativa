@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ideias - Caixa Criativa</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="page-ideas">    
+    <div id="container">
+        <header>
+            <a href="index.html">
+            <img src="image/logomarca.png" alt="Imagem da logomarca">
+            </a>            
+            <nav>
+                <li><a href="index.html">Início</a></li>
+                <li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></li>
+            </nav>
+        </header>
+        <section id="title">
+            <p>em exibição</p>
+            <h1>Ideias</h1>
+        </section>
+         
+        <main>
+            <section id="ideas">
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/708/708888.svg" 
+                        alt="Imagem de sapatilhas de ballet">
+                    
+                    <div class="content">
+                        <h3>Ballet Clássico</h3>
+                        <p>Leitura</p>
+                        <div class="description">
+                            Um excelente livro para aperfeiçoar a técnica do ballet clássico é “Ballet Clássico - 
+                            Fundamentos e Pontos”, da autora Maria Costa. Em suas 346 páginas, ela aborda...
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+    
+                </div>
+    
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/png/512/599/599544.png" 
+                        alt="Imagem de dançarina de flamenco">
+                    
+                    <div class="content">
+                        <h3>Flamenco</h3>
+                        <p>Vídeo</p>
+                        <div class="description">
+                            O canal “Flamenco vive” é uma ótima opção para quem quer maratonar 
+                            essa incrível dança no fim de semana. Os vídeos são gravados por profissionais e...
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+    
+                </div>
+    
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/png/512/860/860883.png" 
+                        alt="Imagem de casal dançando">
+                    
+                    <div class="content">
+                        <h3>Dança de Salão</h3>
+                        <p>Filme</p>
+                        <div class="description">
+                            Um bom filme para se assistir com toda família é “Sob a luz da fama”. 
+                            Os atores são bailarinos e a dança bem executada. Na trama, a personagem...
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>               
+                </div>
+
+                <div class="idea">
+                    <img 
+                        src="https://image.flaticon.com/icons/svg/2917/2917132.svg" 
+                        alt="Imagem de sambista">
+                    
+                    <div class="content">
+                        <h3>Samba</h3>
+                        <p>Vídeo</p>
+                        <div class="description">
+                            Vídeo com tutorial passo a passo sobre como iniciar a magia do samba.
+                            Mesmo os mais iniciantes conseguem acompanhar tranquilamente o conteúdo...
+                        </div>
+                        <a href="#">Ir para a Ideia</a>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <footer>
+            Com ❤ <a href="https://zmmarina.github.io/" target="_blank">Zandra Monteiro</a>
+        </footer>
+    </div>
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                     <label for="category">Categoria</label>
+                     <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image">
+                </div>
+                
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description"cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+
+                <a href="#" onclick="onOff()">Voltar</a>
+                <button>Salvar</button>
+        
+            </form>
+
+        </div>
+        
+    </div>
+       
+    <script src="scripts.js"></script>
+</body>
+</html>
